@@ -78,7 +78,8 @@ body{
 
 
 .username, .password{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     box-shadow: 8px 8px 8px #cbced1,
     -8px -8px 8px #ffffff;
     border-radius: 25px;
@@ -86,6 +87,19 @@ body{
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
+}
+
+.username-msg, .password-msg{
+ color: red;
+ font-weight: normal;
+ font-size: 15px;
+ 
+}
+
+.signin-status{
+    color: green;
+    font-weight: normal;
+    
 }
 
 
